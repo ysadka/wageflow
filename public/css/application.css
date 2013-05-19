@@ -1,9 +1,14 @@
-.container {
-  margin: 20px auto;
-  width: 600px;
-  padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+.background {
+fill: none;
+pointer-events: all;
 }
-th {
-  text-align: left;
+
+#states {
+fill: #aaa;
+stroke: #fff;
+stroke-width: 1.5px;
+}
+
+#states .active {
+fill: orange;
 }
